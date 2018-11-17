@@ -17,9 +17,7 @@
 
 1. `docker-compose up -d` : コンテナ起動する
 
-1. `docker container ls` : 対象のコンテナIdを確認する
-
-1. `docker container logs <コンテナId>` : トークンを確認する(token=xxxxxxxx)
+1. `docker-compose logs` : トークンを確認する(token=xxxxxxxx)
 
 1. ブラウザで`http://127.0.0.1:8888/?token=xxxxxxxx`にアクセスする
 
