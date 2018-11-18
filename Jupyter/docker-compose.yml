@@ -6,6 +6,6 @@ services:
     image: 
       jupyter/extension-notebook
     volumes: 
-      - ./src:/home/jovyan/
+      - ./src:/home/jovyan/work
     ports: 
       - 8888:8888
